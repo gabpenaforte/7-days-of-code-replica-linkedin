@@ -111,6 +111,10 @@ a{
     cursor: pointer;
 }
 
+.contato:hover{
+    text-decoration: underline #70B5F9;
+}
+
 .conexoes{
     position: absolute;
     width: 100px;
@@ -125,6 +129,10 @@ a{
     cursor: pointer;
 }
 
+.conexoes:hover{
+    text-decoration: underline #70B5F9;
+}
+
 .mensagem-perfil{
     position: absolute;
     width: 128px;
@@ -135,6 +143,11 @@ a{
 
     background-color: #70B5F9;
     cursor: pointer;
+}
+
+.mensagem-perfil:hover{
+    background-color: #409dfa;
+    transform: scale(1.05)
 }
 
 .mensagem-perfil h3{
@@ -164,6 +177,11 @@ a{
     cursor: pointer;
 }
 
+.mais:hover{
+    background-color: #70b4f931;
+    transform: scale(1.05)
+}
+
 .mais h3{
     position: relative;
     top: 7px;
@@ -190,6 +208,11 @@ a{
     line-height: 20px;
 
     color: #FFFFFFE5;
+    cursor: pointer;
+}
+
+.empresa h2:hover{
+    text-decoration: underline #FFFFFFE5;
 }
 
 .empresa img {
@@ -198,6 +221,7 @@ a{
     height: 32px;
     top: 295px;
     left: 500px;
+    cursor: pointer;
 }
 
 .instituicao h2{
@@ -213,6 +237,11 @@ a{
     line-height: 20px;
 
     color: #FFFFFFE5;
+    cursor: pointer;
+}
+
+.instituicao h2:hover{
+    text-decoration: underline #FFFFFFE5;
 }
 
 .instituicao img{
@@ -221,4 +250,5 @@ a{
     height: 32px;
     top: 335px;
     left: 500px;
+    cursor: pointer;
 }
