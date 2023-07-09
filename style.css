@@ -79,6 +79,14 @@ a{
     justify-content: space-between;
 }
 
+.menu-principal a{
+    color: #FFFFFFE5;
+}
+
+.menu-principal a:hover{
+    text-decoration: underline;
+}
+
 .menu-principal ul{
     position: absolute;
     left: 550px;
@@ -93,10 +101,6 @@ a{
     font-weight: 400;
     line-height: 14px;
     cursor: pointer;
-}
-
-.menu-principal a{
-    color: #FFFFFFE5;
 }
 
 .home-navbar{
@@ -158,10 +162,15 @@ a{
     cursor: pointer;
 }
 
+.home-navbar:hover, .rede-navbar:hover, .vagas-navbar:hover, .mensagens-navbar:hover, .notificacoes-navbar:hover, .solucoes:hover{
+    transform: scale(1.09);
+}
+
 .separacao{
     position: absolute;
     left: 965px;
 }
+
 
 #informacoes-perfil{
     position: absolute;
@@ -289,6 +298,7 @@ a{
     top: 410px;
     left: 20px;
     border-radius: 16px;
+    border: none;
 
     font-size: 14px;
     font-weight: 600;
@@ -324,7 +334,7 @@ a{
 
 .mais button:hover{
     background-color: #70b4f931;
-    transform: scale(1.05)
+    transform: scale(1.05);
 }
 
 .contato a, .conexoes a, .mais a{
@@ -386,4 +396,11 @@ a{
     top: 335px;
     left: 500px;
     cursor: pointer;
+}
+
+
+@media(max-width: 1024px){
+    .searchbox{
+    display: none;
+    }
 }
