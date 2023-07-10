@@ -36,7 +36,7 @@ a{
 
 }
 
-.caixapesquisa{
+.navbar-input{
     position: absolute;
     width: 280px;
     height: 34px;
@@ -52,7 +52,7 @@ a{
     font-size: 14px;
 }
 
-.caixapesquisa::placeholder{
+.navbar-input::placeholder{
     color: #FFFFFFE5;
     font-size: 14px;
     font-weight: 400;
@@ -60,7 +60,7 @@ a{
     text-align: center;
 }
 
-.searchicon img {
+.navbar-busca-icon img {
     z-index: 1;
     position: absolute;
     width: 24px;
@@ -70,7 +70,7 @@ a{
     cursor: pointer;
 }
 
-.searchicon img:hover{
+.navbar-busca-icon img:hover{
     transform: scale(1.11);
 }
 
@@ -398,6 +398,151 @@ a{
     cursor: pointer;
 }
 
+#destaques{
+    position: absolute;
+    width: 780px;
+    height: 312px;
+    top: 552px;
+    left: 153px;
+    border-radius: 16px;
+
+    background: #1B2226;
+}
+
+#destaques h2{
+    position: relative;
+    top: 16px;
+    left: 24px;
+
+    font-size: 20px;
+    font-weight: 590;
+    line-height: 30px;
+
+    color: #FFFFFFE5;
+}
+
+.publicacoes-destaque{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.primeiro-destaque{
+    position: absolute;
+    width: 238px;
+    height: 236px;
+    top: 55px;
+    left: 20px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF99;
+
+    background-color: transparent;
+}
+.segundo-destaque{
+    position: absolute;
+    width: 238px;
+    height: 236px;
+    top: 55px;
+    left: 270px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF99;
+
+    background-color: transparent;
+}
+
+.terceiro-destaque{
+    position: absolute;
+    width: 238px;
+    height: 236px;
+    top: 55px;
+    left: 520px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF99;
+
+    background-color: transparent;
+}
+
+.primeiro-destaque p, .segundo-destaque p, .terceiro-destaque p{
+    position: relative;
+    top: 12px;
+    left: 12px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF99;
+}
+
+.primeiro-destaque h4, .segundo-destaque h4, .terceiro-destaque h4{
+    position: relative;
+    top: 12px;
+    left: 12px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFFE5;
+}
+
+.primeiro-destaque img, .segundo-destaque img, .terceiro-destaque img{
+    position: relative;
+    width: 236px;
+    height: 152px;
+    top: 15px;
+    left: 0px;
+}
+
+.engajamento .reacao-azul{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 212px;
+    left: 2px;
+    border-radius: 50%;
+    background: #378FE9;
+}
+
+.engajamento .reacao-verde{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 212px;
+    left: 10px;
+    border-radius: 50%;
+    background: #6DAE4F;
+}
+
+.engajamento .reacao-laranja{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 212px;
+    left: 18px;
+    border-radius: 50%;
+    background: #DF704D;
+}
+
+.engajamento .likes{
+    position: absolute;
+    top: 210px;
+    left: 38px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF99;
+}
+
+.engajamento .comentarios{
+    position: absolute;
+    top: 210px;
+    left: 150px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF99;
+}
 
 @media(max-width: 1024px){
     .searchbox{
