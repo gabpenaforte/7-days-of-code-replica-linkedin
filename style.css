@@ -173,7 +173,6 @@ a{
     left: 965px;
 }
 
-
 #informacoes-perfil{
     position: absolute;
     width: 780px;
@@ -548,7 +547,7 @@ a{
 #atividades-perfil{
     position: absolute;
     width: 780px;
-    height: 371px;
+    height: 420px;
     top: 878px;
     left: 154px;
     border-radius: 16px;
@@ -577,16 +576,67 @@ a{
     text-decoration: underline;
 }
 
-#atividades-perfil .atividades{
-    display: flex;
-    flex-direction: column; 
+.publicacoes-button button{
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    top: 70px;
+    left: 30px;
+    border-radius: 16px;
+    border: none;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    background-color: #70B5F9;
+    cursor: pointer;
 }
 
-.atividade{
+.publicacoes-button button:hover{
+    background-color: #409dfa;
+    transform: scale(1.05)
+}
+
+.publicacoes-button a{
+    color: #000000BF;
+}
+
+.imagens-button button{
+    position: absolute;
+    width: 90px;
+    height: 28px;
+    top: 70px;
+    left: 140px;
+    border-radius: 16px;
+    border: 1px solid #70B5F9;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    background: transparent;
+    cursor: pointer;
+}
+
+.imagens-button button:hover{
+    background-color: #70b4f931;
+    transform: scale(1.05);
+}
+
+.imagens-button a{
+    color: #70B5F9;
+}
+
+.atividades .atividade{
+    width: 100%;
+    height: 135px;
+
+    position: relative;
+    top: 40px;
+
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #ffffff99;
     cursor: pointer;
+    border-bottom: 1px solid #FFFFFF99;
 }
 
 .atividade>.nome{
@@ -600,7 +650,6 @@ a{
     line-height: 20px;
 
     color: #FFFFFF99;
-
 }
 
 .atividade>.elipse{
@@ -628,20 +677,20 @@ a{
 
 .atividade img{
     position: relative;
-    width: 64px;
-    height: 64px;
-    top: -15px;
-    float: left;
+    width: 12%;
+    top: -10px;
+    border-radius: 10px;
 }
 
 .atividade p{
     position: relative;
-    width: 660px;
+    width: 620px;
     height: 64px;
-    top: -80px;
-    left: 70px;
+    top: -68px;
+    left: 100px;
+    text-align: justify;
 
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 20px;
 
@@ -651,13 +700,43 @@ a{
 
 .atividade .engajamento{
     position: relative;
-    top: -280px;
+    top: -270px;
     left: 0px;
 }
+
+.atividade .engajamento:hover{
+    text-decoration: underline #FFFFFF99;
+}
+
 .atividade .engajamento .comentarios{
     position: relative;
     left: 650px;
 }
+
+#atividades-perfil hr{
+    position: relative;
+    width: 780px;
+    top: 38px;
+    left: -26px;
+
+    color: #FFFFFF99;
+    border: 1px solid #FFFFFF99;
+}
+
+#atividades-perfil h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: center;
+
+    color: #FFFFFF99;
+}
+
+#atividades-perfil h3:hover{
+    text-decoration: underline;
+}
+
+
 
 @media(max-width: 1024px){
     .searchbox{
