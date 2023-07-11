@@ -736,7 +736,34 @@ a{
     text-decoration: underline;
 }
 
+#sobre-perfil{
+    position: absolute;
+    width: 780px;
+    height: 134px;
+    top: 1310px;
+    left: 154px;
+    border-radius: 16px;
+    padding: 1rem 1.6rem;
+    
+    background: #1B2226;
+}
 
+#sobre-perfil h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+    color: #FFFFFFE5;
+}
+
+#sobre-perfil p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: .5rem;
+
+    color: #FFFFFF;
+}
 
 @media(max-width: 1024px){
     .searchbox{
