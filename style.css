@@ -564,7 +564,7 @@ a{
     color: #FFFFFFE5;
 }
 
-#atividades-perfil h4 a{
+#atividades-perfil a.seguidores{
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -572,7 +572,7 @@ a{
     color: #70B5F9;
 }
 
-#atividades-perfil h4 a:hover{
+#atividades-perfil a.seguidores:hover{
     text-decoration: underline;
 }
 
@@ -626,7 +626,7 @@ a{
     color: #70B5F9;
 }
 
-.atividades .atividade{
+.publicacoes-atividades .atividade{
     width: 100%;
     height: 135px;
 
@@ -641,6 +641,7 @@ a{
 
 .atividade>.nome{
     position: relative;
+    width: 300px;
     top: 0px;
     left: 0px;
     padding-top: .7rem;
@@ -652,33 +653,10 @@ a{
     color: #FFFFFF99;
 }
 
-.atividade>.elipse{
-    position: relative;
-    width: 2px;
-    height: 2px;
-    top: -22px;
-    left: 205px;
-
-    color: #FFFFFF99;
-}
-
-.atividade>.tempo{
-    position: relative;
-    top: -21px;
-    left: 215px;
-
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-
-    color: #FFFFFF99;
-
-}
-
 .atividade img{
     position: relative;
     width: 12%;
-    top: -10px;
+    top: 8px;
     border-radius: 10px;
 }
 
@@ -686,7 +664,7 @@ a{
     position: relative;
     width: 620px;
     height: 64px;
-    top: -68px;
+    top: -48px;
     left: 100px;
     text-align: justify;
 
@@ -700,7 +678,7 @@ a{
 
 .atividade .engajamento{
     position: relative;
-    top: -270px;
+    top: -250px;
     left: 0px;
 }
 
@@ -744,12 +722,12 @@ a{
     left: 154px;
     border-radius: 16px;
     padding: 1rem 1.6rem;
+    font-size: 1rem;
     
     background: #1B2226;
 }
 
 #sobre-perfil h2{
-    font-size: 20px;
     font-weight: 600;
     line-height: 30px;
 
@@ -761,8 +739,113 @@ a{
     font-weight: 400;
     line-height: 20px;
     padding-top: .5rem;
+    text-align: justify;
 
     color: #FFFFFF;
+}
+
+#experiencias-perfil{
+    position: absolute;
+    width: 780px;
+    height: 365px;
+    top: 1455px;
+    left: 154px;
+    border-radius: 16px;
+    padding: 1rem 1.6rem;
+    background: #1B2226;
+}
+
+#experiencias-perfil h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+    color: #FFFFFFE5;
+}
+
+.experiencia-profissional img{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    top: 10px;
+    left: 0px;
+}
+
+.experiencia-profissional h3{
+    position: relative;
+    top: -35px;
+    left: 55px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+
+    color: #FFFFFFE5;
+}
+
+.experiencia-profissional .duracao{
+    position: relative;
+    top: -35px;
+    left: 55px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    
+
+    color: #FFFFFF99;
+}
+
+
+.detalhamento-experiencia ul{
+    list-style: none;
+
+    background-image: url('imagens/detalhe\ timeline.png');
+    background-repeat: repeat-y;
+    background-size: 10px;
+
+    position: relative;
+    top: -20px;
+    left: 20px;
+
+    color: #FFFFFFE5;
+}
+
+.detalhamento-experiencia ul li{
+    position: relative;
+    top: -5px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+
+    font-size: 15px;
+    font-weight: 580;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cargo .tipo-emprego{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+
+    color: #FFFFFFE5;
+}
+
+.cargo .duracao{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+   
+    color: #FFFFFF99;
+}
+
+.cargo .localizacao{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+   
+    color: #FFFFFF99;
 }
 
 @media(max-width: 1024px){
