@@ -682,13 +682,14 @@ a{
     left: 0px;
 }
 
-.atividade .engajamento:hover{
-    text-decoration: underline #FFFFFF99;
-}
-
 .atividade .engajamento .comentarios{
     position: relative;
     left: 650px;
+}
+
+.atividade .engajamento .likes:hover, .atividade .engajamento .comentarios:hover{
+    text-decoration: underline;
+    color: #409dfa;
 }
 
 #atividades-perfil hr{
