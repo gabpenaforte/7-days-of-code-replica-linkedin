@@ -173,7 +173,7 @@ a{
     left: 965px;
 }
 
-#informacoes-perfil{
+.informacoes-perfil{
     position: absolute;
     width: 780px;
     height: 468px;
@@ -399,7 +399,7 @@ a{
     cursor: pointer;
 }
 
-#destaques-perfil{
+.destaques-perfil{
     position: absolute;
     width: 780px;
     height: 312px;
@@ -410,7 +410,7 @@ a{
     background: #1B2226;
 }
 
-#destaques-perfil h2{
+.destaques-perfil h2{
     position: relative;
     top: 16px;
     left: 24px;
@@ -544,7 +544,7 @@ a{
     color: #FFFFFF99;
 }
 
-#atividades-perfil{
+.atividades-perfil{
     position: absolute;
     width: 780px;
     height: 420px;
@@ -556,7 +556,7 @@ a{
     background: #1B2226;
 }
 
-#atividades-perfil h2{
+.atividades-perfil h2{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -564,7 +564,7 @@ a{
     color: #FFFFFFE5;
 }
 
-#atividades-perfil a.seguidores{
+.atividades-perfil a.seguidores{
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -572,7 +572,7 @@ a{
     color: #70B5F9;
 }
 
-#atividades-perfil a.seguidores:hover{
+.atividades-perfil a.seguidores:hover{
     text-decoration: underline;
 }
 
@@ -692,7 +692,7 @@ a{
     color: #409dfa;
 }
 
-#atividades-perfil hr{
+.atividades-perfil hr{
     position: relative;
     width: 780px;
     top: 38px;
@@ -702,7 +702,7 @@ a{
     border: 1px solid #FFFFFF99;
 }
 
-#atividades-perfil h3{
+.atividades-perfil h3{
     font-size: 14px;
     font-weight: 500;
     line-height: 120px;
@@ -711,11 +711,11 @@ a{
     color: #FFFFFF99;
 }
 
-#atividades-perfil h3:hover{
+.atividades-perfil h3:hover{
     text-decoration: underline;
 }
 
-#sobre-perfil{
+.sobre-perfil{
     position: absolute;
     width: 780px;
     height: 280px;
@@ -727,7 +727,7 @@ a{
     background: #1B2226;
 }
 
-#sobre-perfil h2{
+.sobre-perfil h2{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -735,7 +735,7 @@ a{
     color: #FFFFFFE5;
 }
 
-#sobre-perfil p{
+.sobre-perfil p{
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -745,7 +745,7 @@ a{
     color: #FFFFFF;
 }
 
-#experiencias-perfil{
+.experiencias-perfil{
     position: absolute;
     width: 780px;
     height: 365px;
@@ -756,7 +756,7 @@ a{
     background: #1B2226;
 }
 
-#experiencias-perfil h2{
+.experiencias-perfil h2{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -866,7 +866,7 @@ a{
     color: #FFFFFF99;
 }
 
-#formacao-academica-perfil{
+.formacao-academica-perfil{
     position: absolute;
     width: 780px;
     height: 210px;
@@ -878,7 +878,7 @@ a{
     cursor: pointer;
 }
 
-#formacao-academica-perfil h2{
+.formacao-academica-perfil h2{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -950,7 +950,7 @@ a{
 
 }
 
-#idiomas-perfil{
+.idiomas-perfil{
     position: absolute;
     width: 780px;
     height: 180px;
@@ -961,7 +961,7 @@ a{
     background-color: #1B2226;
 }
 
-#idiomas-perfil h2{
+.idiomas-perfil h2{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
