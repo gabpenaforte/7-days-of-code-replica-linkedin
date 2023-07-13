@@ -865,6 +865,87 @@ a{
     color: #FFFFFF99;
 }
 
+#formacao-academica-perfil{
+    position: absolute;
+    width: 780px;
+    height: 210px;
+    top: 1830px;
+    left: 154px;
+    border-radius: 16px; 
+    padding: .5rem 1.6rem;
+    background-color: #1B2226;
+}
+
+#formacao-academica-perfil h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+    color: #FFFFFFE5;
+}
+
+.formacao-academica ul{
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #FFFFFFE5;
+}
+
+.formacao-academica ul li img{
+    width: 48px;
+    height: 48px;
+
+    float: left;
+    margin-top: 22px;
+}
+
+.formacao-academica h3{
+    position: relative;
+    top: 22px;
+    left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+
+    color: #FFFFFFE5;
+}
+
+.formacao-academica .nome-curso{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+
+    color: #FFFFFFE5;
+
+}
+
+.formacao-academica .duracao{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+
+    color: #FFFFFF99;
+
+
+}
+
+.formacao-academica ul hr{
+    position: relative;
+    top: 10px;
+    width: 700px;
+    border: 1px solid #FFFFFF99;
+    color: #FFFFFF99;
+
+}
+
 @media(max-width: 1024px){
     .searchbox{
     display: none;
