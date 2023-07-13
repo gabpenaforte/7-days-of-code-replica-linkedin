@@ -874,6 +874,7 @@ a{
     border-radius: 16px; 
     padding: 1rem 1.6rem;
     background-color: #1B2226;
+    cursor: pointer;
 }
 
 #formacao-academica-perfil h2{
@@ -910,6 +911,11 @@ a{
     line-height: 20px;
 
     color: #FFFFFFE5;
+}
+
+.formacao-academica h3:hover{
+    color: #409dfa;
+    text-decoration: underline;
 }
 
 .formacao-academica .nome-curso{
