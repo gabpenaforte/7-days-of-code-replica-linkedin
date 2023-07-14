@@ -11,6 +11,10 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -1101,10 +1105,4 @@ a{
 .sugestoes-perfis button:hover{
     background-color: #70b4f931;
     border: 2px solid #FFFFFFE5;
-}
-
-@media(max-width: 1024px){
-    .searchbox{
-    display: none;
-    }
 }
