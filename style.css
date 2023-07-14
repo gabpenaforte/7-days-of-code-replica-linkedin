@@ -310,7 +310,6 @@ a{
 
 .mensagem-perfil button:hover{
     background-color: #409dfa;
-    transform: scale(1.05)
 }
 
 .mensagem-perfil a{
@@ -335,7 +334,7 @@ a{
 
 .mais button:hover{
     background-color: #70b4f931;
-    transform: scale(1.05);
+    border: 2px solid #70B5F9;
 }
 
 .contato a, .conexoes a, .mais a{
@@ -592,11 +591,6 @@ a{
     cursor: pointer;
 }
 
-.publicacoes-button button:hover{
-    background-color: #409dfa;
-    transform: scale(1.05)
-}
-
 .publicacoes-button a{
     color: #000000BF;
 }
@@ -619,7 +613,7 @@ a{
 
 .imagens-button button:hover{
     background-color: #70b4f931;
-    transform: scale(1.05);
+    border: 2px solid #70B5F9;
 }
 
 .imagens-button a{
@@ -1106,7 +1100,7 @@ a{
 
 .sugestoes-perfis button:hover{
     background-color: #70b4f931;
-    transform: scale(1.05);
+    border: 2px solid #FFFFFFE5;
 }
 
 @media(max-width: 1024px){
