@@ -1045,11 +1045,14 @@ a{
     flex-direction: column;
 
     color: #FFFFFFE5;
+    cursor: pointer;
 }
 
 .sugestoes-perfis ul li img{
     width: 48px;
     height: 48px;
+
+    border-radius: 50%;
 
     float: left;
     margin-bottom: 50px;
@@ -1063,6 +1066,11 @@ a{
     line-height: 17px;
 
     color: #FFFFFFE5;
+}
+
+.sugestoes-perfis h3:hover{
+    color: #409dfa;
+    text-decoration: underline;
 }
 
 .sugestoes-perfis .titulo{
@@ -1094,6 +1102,11 @@ a{
 .sugestoes-perfis button a{
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.sugestoes-perfis button:hover{
+    background-color: #70b4f931;
+    transform: scale(1.05);
 }
 
 @media(max-width: 1024px){
